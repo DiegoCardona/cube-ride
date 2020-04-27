@@ -92,7 +92,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 5515220902009655335}
   player: {fileID: 0}
-  speedText: {fileID: 5515220902343543529}
 --- !u!1 &5515220902343543531
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,6 +103,7 @@ GameObject:
   - component: {fileID: 5515220902343543528}
   - component: {fileID: 5515220902343543542}
   - component: {fileID: 5515220902343543529}
+  - component: {fileID: 426981269863303866}
   m_Layer: 5
   m_Name: SpeedTxt
   m_TagString: Untagged
@@ -170,6 +170,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0
+--- !u!114 &426981269863303866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515220902343543531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6103fd04f8a60c14390af32cfbf7d944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  speedText: {fileID: 5515220902343543529}
 --- !u!1 &5515220902932115311
 GameObject:
   m_ObjectHideFlags: 0

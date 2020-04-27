@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\speed.cs" />
      <None Include="Assets\Kino\Motion\Shader\Reconstruction.shader" />
      <None Include="Assets\Kino\Motion\Shader\Reconstruction.cginc" />
      <None Include="Assets\Kino\Motion\Shader\FrameBlending.shader" />
